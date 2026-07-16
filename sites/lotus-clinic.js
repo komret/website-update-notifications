@@ -1,4 +1,4 @@
-const BOOKING_URL = 'https://lotus.rezervace.online/cs/service/navazujici-konzultace-598';
+const BOOKING_URL = 'https://lotus.rezervace.online/cs/service/vstupni-konzultace-16489';
 
 async function findNearestAvailableDate(page) {
   // When the currently selected day has no bookable term, REENIO shows a
