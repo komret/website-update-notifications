@@ -4,7 +4,7 @@ const SLUG = 'warcry-ccg';
 
 // Notify when WarCry CCG was restocked within this window. The workflow runs once a
 // day, so a 24h window means each restock is emailed exactly once — no state to keep.
-const RESTOCK_WINDOW_MS = 24 * 60 * 60 * 1000;
+const RESTOCK_WINDOW_MS = 25 * 60 * 60 * 1000;
 
 // The page ships each category's `latest_stock_increase` timestamp in the Next.js
 // data payload (`self.__next_f`) — this is what drives the shop's "restock" icon.
