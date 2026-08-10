@@ -1,7 +1,10 @@
 const { chromium } = require('playwright');
 const { sendNotification } = require('./notifier');
 
-const sites = [require('./sites/lotus-clinic')];
+const sites = [
+  require('./sites/lotus-clinic'),
+  require('./sites/cardgamegeek-warcry'),
+];
 
 async function main() {
   const browser = await chromium.launch();
