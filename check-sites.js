@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const { sendNotification } = require('./notifier');
 
 const sites = [
-  require('./sites/lotus-clinic'),
+  // require('./sites/lotus-clinic'),
   require('./sites/cardgamegeek-warcry'),
 ];
 
